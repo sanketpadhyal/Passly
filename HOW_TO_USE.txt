@@ -1,0 +1,16 @@
+🧪 How to Use
+
+1. Clone the repo or [view it live]
+2. Open `index.html` in your browser
+3. Select your device → Pick a tool → Get results instantly
+4. All data stays in your browser – nothing is saved or sent
+
+---
+
+ 👨‍💻 Made by
+
+**@SanketPadhyal (VortexByte)**  
+Passly was built with care, precision, and a lot of CSS blur filters 😎  
+Feel free to fork, contribute, or reach out!
+
+---

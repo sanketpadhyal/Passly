@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Passly | Strong Password Generator</title>
+  <link rel="stylesheet" href="page4style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="glass-box">
+    <div class="branding">Passly ⚡</div>
+
+    <div class="device-info">
+      Using Device: <span id="deviceInfo"></span>
+    </div>
+
+    <div class="intro">
+      <p><i>✨ Let's build you a fortress-level password!</i></p>
+      <p><i>🔧 Based on details *only you* would know!</i></p>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="platform" placeholder="🧭 Platform (e.g., Instagram)" />
+      <input type="text" id="fname" placeholder="🧑 First Name" />
+      <input type="text" id="mname" placeholder="👤 Middle Name (optional)" />
+      <input type="text" id="lname" placeholder="👥 Last Name" />
+      <input type="number" id="favnum" placeholder="🔢 Favorite Number" />
+    </div>
+
+    <div class="btn-group">
+      <button onclick="generatePassword()" class="generate-btn">⚡ Generate Password</button>
+      <button onclick="copyPassword()" class="copy-btn">📋 Copy</button>
+    </div>
+
+    <div id="passwordResult" class="result-box">🔐 Your secure password will appear here...</div>
+  </div>
+
+  <script src="page4script.js"></script>
+</body>
+</html>

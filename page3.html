@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Passly - QR Generator</title>
+  <link rel="stylesheet" href="page3style.css" />
+</head>
+<body>
+  <div class="branding-glow">🔷 Passly QR Studio</div>
+
+  <div class="glass-box" id="mainBox">
+    <div class="intro-text">📲 Let's create your QR code with style!</div>
+    <div class="device-info">You’re using: <span id="deviceInfo"></span></div>
+
+    <div class="qr-options">
+      <button id="textQRBtn" class="option-btn green">✍️ Add Text to QR</button>
+      <button id="imageQRBtn" class="option-btn blue">🖼️ Add Image to QR</button>
+    </div>
+
+    <div class="text-input-box" id="textInputContainer" style="display: none;">
+      <input type="text" id="qrText" placeholder="Enter your text..." />
+      <button id="generateQR" class="generate-btn">Generate QR</button>
+    </div>
+
+    <div id="qrResult" class="qr-result" style="display: none;">
+      <img id="qrImage" />
+      <a id="downloadQR" class="download-btn" download="passly_qr.png">⬇️ Download JPG</a>
+    </div>
+
+    <div class="image-upload-area" id="imageInputContainer" style="display: none;">
+      <label class="upload-box" for="fileInput">📁 Choose Image</label>
+      <input type="file" id="fileInput" accept="image/*" hidden />
+      <div id="dropZone" class="drop-zone">Or drag & drop image here</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrious"></script>
+  <script src="page3script.js"></script>
+</body>
+</html>
