@@ -2,7 +2,7 @@
 const device = localStorage.getItem("passly-device") || "Unknown";
 document.getElementById("deviceInfo").textContent = device;
 
-// Button triggers
+// Button hits
 document.getElementById("textQRBtn").addEventListener("click", () => {
   document.getElementById("textInputContainer").style.display = "flex";
   document.getElementById("imageInputContainer").style.display = "none";
@@ -44,7 +44,7 @@ document.getElementById("generateQR").addEventListener("click", () => {
   }
 });
 
-// Image to QR handlers
+// Image to QR 
 document.getElementById("fileInput").addEventListener("change", handleImage);
 
 function handleImage(event) {
