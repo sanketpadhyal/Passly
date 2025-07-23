@@ -9,7 +9,7 @@
 
  👨‍💻 Made by
 
-**@SanketPadhyal (VortexByte)**  
+**@SanketPadhyal**  
 Passly was built with care, precision, and a lot of CSS blur filters 😎  
 Feel free to fork, contribute, or reach out!
 
