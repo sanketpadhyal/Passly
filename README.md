@@ -11,12 +11,7 @@ Welcome to **Passly**, a smooth, stylish, and secure tool built to make your dig
 - 🌐 **Fully responsive** – works great on mobile & desktop  
 - 🎨 **Glassy, premium UI** with animations and transitions  
 - 🤖 **Lightweight frontend-only** app (HTML, CSS, JS – no frameworks)
-
-
-
-
-                                                                                      sign off
-                                                                                  SANKET PADHYAL
+- ⚡️ **No Long And Lenghthy Interface Just Minimal for fast Use!**
 
 
 
